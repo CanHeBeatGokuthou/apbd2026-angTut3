@@ -2,7 +2,7 @@
 
 public class Types
 {
-    enum ItemType
+    public enum ItemType
     {
         Laptop,
         Monitor,
@@ -10,10 +10,11 @@ public class Types
         Projector,
         Keyboard
     }
-    enum UserType
+    public enum UserType
     {
         Student,
         Teacher,
         Employee
     }
+    
 }
